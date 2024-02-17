@@ -19,3 +19,16 @@
     display: flex;
     margin: auto;
   }
+  p{
+    font-size: 40px;
+    margin: 12px 506px ;
+    color: aliceblue;
+  }
+  input{
+    width: 342px;
+    height: 74px; 
+    border-radius: 54px;
+
+
+
+  }
