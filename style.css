@@ -9,19 +9,25 @@
 
 body {
   background-color: blue;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
-  width: 400px;
-  display: flex;
+  width: 300px;
+  align-self: center;
   margin: auto;
 }
-
+section {
+    display: flex;
+    flex-direction: column;
+}
 p {
   padding: 56px 28px;
   font-size: 40px;
   margin-left: 36vw;
   color: aliceblue;
+  align-self: center;
 }
 
 .primeiro-input {
