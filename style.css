@@ -25,6 +25,7 @@ section {
 p {
   font-size: 40px;
   color: aliceblue;
+  text-align: center;
 }
 input {
   width: 342px;
