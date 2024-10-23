@@ -19,50 +19,32 @@ img {
   margin: auto;
 }
 section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 p {
-  padding: 56px 28px;
   font-size: 40px;
-  margin-left: 36vw;
   color: aliceblue;
-  align-self: center;
 }
-
-.primeiro-input {
-  margin-left: 30vw;
-}
-
-.segundo-input {
-  margin-left: 40px;
-}
-
 input {
-  display: inline-flex;
   width: 342px;
   height: 74px;
   border-radius: 54px;
   font-size: 40PX;
   padding: 35px;
   border: none;
-
 }
 
 button {
-  display: block;
   width: 342px;
-  height: 74px;
   border-radius: 54px;
   font-size: 40PX;
   padding: 13px;
   background-color: rgb(247 0 0);
-  margin-left: 41VW;
-  margin-top: 32px;
   color: aliceblue;
   border: none;
   cursor: pointer;
-
 }
 
 button:hover {
