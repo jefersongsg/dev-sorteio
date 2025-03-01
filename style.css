@@ -14,16 +14,16 @@ body {
   height: 100vh;
 }
 img {
-  width: 150px;
+  width: 110px;
   align-self: center;
-  margin: 10% 0 5% 0;
+  margin: 10% 0 1% 0;
 }
 
 p {
   font-size: 40px;
   color: aliceblue;
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .primeiro-input, .segundo-input {
   width: 342px;
@@ -53,11 +53,9 @@ button:active {
 }
 .resultado {
   display: none;
-  font-size: 80PX;
+  font-size: 60PX;
   text-align: center;
   border: none;
   background: none;
-  color: rgb(247, 0, 0);
   letter-spacing: 5px;
-  font-family: fantasy;
 }
