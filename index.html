@@ -5,27 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image" href="assets/patric.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>DevSorteio</title>
+    <title>SorteiadorDev</title>
 </head>
 
 <body>
 
-    <img src="./assets/imgdevsorteio.png">
+    <img src="./assets/rolldice.png">
 
+    <input class="resultado" placeholder="0" readonly>
+
+    <p> Sorteador de números </p>
     <section>
-        <p> Sortear um número </p>
 
-        <input class="primeiro-input" placeholder="entre" type="number">
-
-        <input class="segundo-input" placeholder="e" type="number">
-
-        <button type=button onclick="generateNumber()"> Sortear </button>
+        <input class="primeiro-input" placeholder="entre" type="number" min="0">
+        <br>
+        <input class="segundo-input" placeholder="e" type="number" min="0">
 
     </section>
+    <button type=button onclick="generateNumber()"> Sortear </button>
+
 </body>
 <script src="./script.js"></script>
 
