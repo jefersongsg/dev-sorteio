@@ -1,12 +1,12 @@
 function generateNumber() {
 
-    const one = Math.ceil(document.querySelector(".primeiro-input").value)
-    const two = Math.floor(document.querySelector(".segundo-input").value)
+    const min = Math.ceil(document.querySelector(".primeiro-input").value)
+    const max = Math.floor(document.querySelector(".segundo-input").value)
 
-    const result = Math.floor(Math.random() * (two - one + 1)) + one;
+    const result = Math.floor(Math.random() * (max - min + 1)) + min;
 
     
-    if(result < two && result > one){
+    if(result <= max && result > min){
         const resultadoInput = document.querySelector(".resultado");
         resultadoInput.value = result;
         resultadoInput.style.display = "block";
