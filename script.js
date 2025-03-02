@@ -6,7 +6,7 @@ function generateNumber() {
     const result = Math.floor(Math.random() * (max - min + 1)) + min;
 
     
-    if(result <= max && result > min){
+    if(result <= max && result => min){
         const resultadoInput = document.querySelector(".resultado");
         resultadoInput.value = result;
         resultadoInput.style.display = "block";
